@@ -18,7 +18,7 @@ module.exports = function (controller) {
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer tTDPnKiEten7FgiPxRH1n07a8JWUznabo95rqrYM'
+                'Authorization': 'Bearer '
             },
             body: JSON.stringify({ 'text': msg.text })
         };
